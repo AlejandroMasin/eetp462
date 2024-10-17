@@ -1,0 +1,28 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-image: url("fondo.jpg");
+    background-size: cover;
+}
+
+.letra {
+    display: inline-block;
+    width: 200px;
+    padding: 20px;
+    margin: 30px;
+
+    color: white;
+    font-size: 100px;
+    font-weight: bolder;
+    
+    background-color: black;
+    border-radius: 20px ;
+    transition: all .7s ease-in-out;
+    cursor: pointer;
+}
+
+.letra:hover {
+    background-color: red;
+    color: black;
+    transform: scale(1.1) rotate(-10deg) ;
+}
